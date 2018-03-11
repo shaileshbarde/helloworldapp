@@ -78,7 +78,7 @@
 					<dockerDirectory>src/main/resources/docker</dockerDirectory>
 					<imageName>com.cisco.oneId/helloworld</imageName>
 					<serverId>docker-hub</serverId>
-					<registryUrl>http://kube-master/v2/</registryUrl>
+					<!--  registryUrl></registryUrl-->
 					<pushImage>false</pushImage> <!-- docker push -->
 					<resources>						           
 						<resource>							             
