@@ -1,0 +1,29 @@
+<settings>
+  <profiles>
+    <profile>
+      <id>Google Cloud</id>
+      <activation>
+        <!-- Automatically enable us to pull things down from GCS -->
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <repositories>
+        <repository>
+          <id>GCS Repository</id>
+          <url>https://storage.googleapis.com/central-repo/</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>GCS Repository</id>
+          <url>https://storage.googleapis.com/central-repo/</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+</settings>
