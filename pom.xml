@@ -68,7 +68,7 @@
 			      <gcloud_directory>/home/sjbarde</gcloud_directory>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.0.0</version>
@@ -80,7 +80,7 @@
 						</goals>
 					</execution>
 				</executions>
-				<!--<configuration>
+				<configuration>
 					<dockerHost>https://192.168.99.100:2376</dockerHost>
 					<dockerCertPath>C:\Users\Shailesh_Barde\.docker\machine\machines\default</dockerCertPath>
 					<dockerDirectory>src/main/resources/docker</dockerDirectory>
@@ -95,8 +95,8 @@
 							<include>${project.build.finalName}.jar</include>							           
 						</resource>						        
 					</resources>
-				<configuration>  -->
-			</plugin>
+				<configuration>
+			</plugin>  -->
 		</plugins>
 	</build>
 
