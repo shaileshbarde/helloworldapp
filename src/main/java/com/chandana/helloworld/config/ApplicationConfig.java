@@ -26,7 +26,7 @@ public class ApplicationConfig {
     }
 
     private ApiInfo getApiInfo() {
-        Contact contact = new Contact("Shailesh barde", "http://blog.napagoda.com", "sjbarde@gmail.com");
+        Contact contact = new Contact("Shailesh J barde", "http://blog.shailesh.com", "sjbarde@gmail.com");
         return new ApiInfoBuilder()
                 .title("Example Api Title")
                 .description("Example Api Definition")
