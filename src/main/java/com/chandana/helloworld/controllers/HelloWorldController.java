@@ -23,7 +23,7 @@ public class HelloWorldController {
     }
     )
     public Greeting message(@PathVariable String name) {
-        Greeting msg = new Greeting(name, "Hello World.." + name);
+        Greeting msg = new Greeting(name, "Hello World...." + name);
         return msg;
     }
 
